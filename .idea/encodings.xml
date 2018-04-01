@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/EurekaClient-ConfigServer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/EurekaClient-Consul" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/EurekaClient-Feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/EurekaClient-RabbitMQ" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/EurekaClient-Ribbon" charset="UTF-8" />

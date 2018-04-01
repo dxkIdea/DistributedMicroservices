@@ -1,9 +1,13 @@
 server:
-  port: 8007
+  port: 8009
 
 spring:
   application:
-    name: Client-Fegin
+    name: Client-Consul
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
 
 #########eureka注册中心设置#######################
 eureka:

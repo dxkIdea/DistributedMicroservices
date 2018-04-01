@@ -1,20 +1,9 @@
 server:
-  port: 8009
+  port: 8012
 
 spring:
   application:
-    name: Client-ConfigServer
-  #########config server 配置#########
-  cloud:
-      config:
-        server:
-          git:
-            uri: https://github.com/forezp/SpringcloudConfig/
-            search-paths:
-              - respo
-            username:
-            password:
-        label: master
+    name: Client-Fegin
 
 #########eureka注册中心设置#######################
 eureka:
@@ -30,5 +19,7 @@ eureka:
     service-url:
       defaultZone: http://dxk:123456@${eureka.instance.hostname}:8001/eureka/
 
-
-
+#Feign是自带断路器的，在D版本的Spring Cloud中，它没有默认打开。需要在配置文件中配置打开它
+fegin:
+  hystrix:
+    enabled: true

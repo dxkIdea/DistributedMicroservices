@@ -27,6 +27,7 @@
         <module>EurekaClient-Feign</module>
         <module>EurekaClient-Zuul</module>
         <module>EurekaClient-ConfigServer</module>
+        <module>EurekaClient-Consul</module>
     </modules>
 
 

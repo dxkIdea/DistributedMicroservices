@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="EurekaClient-ConfigServer" />
+        <module name="EurekaClient-Consul" />
         <module name="EurekaClient-Feign" />
         <module name="EurekaClient-RabbitMQ" />
         <module name="EurekaClient-Ribbon" />
@@ -20,6 +21,7 @@
     <bytecodeTargetLevel>
       <module name="DistributedMicroservices" target="1.6" />
       <module name="EurekaClient-ConfigServer" target="1.8" />
+      <module name="EurekaClient-Consul" target="1.8" />
       <module name="EurekaClient-Feign" target="1.8" />
       <module name="EurekaClient-RabbitMQ" target="1.8" />
       <module name="EurekaClient-Ribbon" target="1.8" />

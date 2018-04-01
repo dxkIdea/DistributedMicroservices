@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DistributedMicroservices.iml" filepath="$PROJECT_DIR$/DistributedMicroservices.iml" />
       <module fileurl="file://$PROJECT_DIR$/EurekaClient-ConfigServer/EurekaClient-ConfigServer.iml" filepath="$PROJECT_DIR$/EurekaClient-ConfigServer/EurekaClient-ConfigServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EurekaClient-Consul/EurekaClient-Consul.iml" filepath="$PROJECT_DIR$/EurekaClient-Consul/EurekaClient-Consul.iml" />
       <module fileurl="file://$PROJECT_DIR$/EurekaClient-Feign/EurekaClient-Feign.iml" filepath="$PROJECT_DIR$/EurekaClient-Feign/EurekaClient-Feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/EurekaClient-RabbitMQ/EurekaClient-RabbitMQ.iml" filepath="$PROJECT_DIR$/EurekaClient-RabbitMQ/EurekaClient-RabbitMQ.iml" />
       <module fileurl="file://$PROJECT_DIR$/EurekaClient-Ribbon/EurekaClient-Ribbon.iml" filepath="$PROJECT_DIR$/EurekaClient-Ribbon/EurekaClient-Ribbon.iml" />
