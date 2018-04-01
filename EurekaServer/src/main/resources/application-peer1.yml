@@ -1,0 +1,38 @@
+#服务注册中心端口
+server:
+  port: 8001
+#应用名称
+spring:
+  application:
+    name: Eureka-Server
+#安全密码
+security:
+  basic:
+    enabled: true
+  user:
+    name: dxk
+    password: 123456
+
+##########eureka注册中心设置
+eureka:
+  instance:
+    #服务注册中心实例的主机名
+    hostname: peer1
+    #eureka client发送心跳给server端的频率,默认30s
+    lease-renewal-interval-in-seconds: 30
+    #eureka server至上一次收到client的心跳之后，等待下一次心跳的超时时间，在这个时间内若没收到下一次心跳，则将移除该instance,默认90s
+    lease-expiration-duration-in-seconds: 90
+  client:
+    #是否向服务注册中心注册自己
+    register-with-eureka: false
+    #是否检索服务，单点服务设置为false,如果集群的话设置为true同步
+    fetch-registry: false
+    #服务注册中心的配置内容，指定服务注册中心的位置
+    service-url:
+      #defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://${security.user.name}:${security.user.password}@peer2:8002/eureka/,http://${security.user.name}:${security.user.password}@peer3:8003/eureka/
+    #确保注册中心将不可用的实例删除
+    server:
+      enableSelfPreservation: true
+
+

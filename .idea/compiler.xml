@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="EurekaClient-ConfigServer" />
+        <module name="EurekaClient-Feign" />
+        <module name="EurekaClient-RabbitMQ" />
+        <module name="EurekaClient-Ribbon" />
+        <module name="EurekaClient-SendEmail" />
+        <module name="EurekaClient-Test1" />
+        <module name="EurekaClient-Test2" />
+        <module name="EurekaClient-Zuul" />
+        <module name="EurekaServer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="DistributedMicroservices" target="1.6" />
+      <module name="EurekaClient-ConfigServer" target="1.8" />
+      <module name="EurekaClient-Feign" target="1.8" />
+      <module name="EurekaClient-RabbitMQ" target="1.8" />
+      <module name="EurekaClient-Ribbon" target="1.8" />
+      <module name="EurekaClient-SendEmail" target="1.8" />
+      <module name="EurekaClient-Test1" target="1.8" />
+      <module name="EurekaClient-Test2" target="1.8" />
+      <module name="EurekaClient-Zuul" target="1.8" />
+      <module name="EurekaClientRabbitMQ" target="1.6" />
+      <module name="EurekaClientRibbon" target="1.8" />
+      <module name="EurekaClientSendEmail" target="1.8" />
+      <module name="EurekaServer" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

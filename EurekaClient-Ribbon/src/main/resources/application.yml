@@ -1,0 +1,24 @@
+#服务注册中心端口
+server:
+  port: 8006
+#应用名称
+spring:
+  application:
+    name: Client-Ribbon
+
+##########eureka注册中心设置#######################
+eureka:
+  instance:
+    #服务注册中心实例的主机名
+    hostname: localhost
+  client:
+    #是否向服务注册中心注册自己
+    register-with-eureka: true
+    #是否检索服务
+    fetch-registry: true
+    #服务注册中心的配置内容，指定服务注册中心的位置
+    service-url:
+      defaultZone: http://dxk:123456@${eureka.instance.hostname}:8001/eureka/
+
+
+

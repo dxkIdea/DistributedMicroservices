@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.tinygroup:org.tinygroup.slf4j-log4j12:1.7.7">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../M2/Repository/org/tinygroup/org.tinygroup.slf4j-log4j12/1.7.7/org.tinygroup.slf4j-log4j12-1.7.7.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../M2/Repository/org/tinygroup/org.tinygroup.slf4j-log4j12/1.7.7/org.tinygroup.slf4j-log4j12-1.7.7-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../M2/Repository/org/tinygroup/org.tinygroup.slf4j-log4j12/1.7.7/org.tinygroup.slf4j-log4j12-1.7.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

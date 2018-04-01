@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DistributedMicroservices.iml" filepath="$PROJECT_DIR$/DistributedMicroservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EurekaClient-ConfigServer/EurekaClient-ConfigServer.iml" filepath="$PROJECT_DIR$/EurekaClient-ConfigServer/EurekaClient-ConfigServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EurekaClient-Feign/EurekaClient-Feign.iml" filepath="$PROJECT_DIR$/EurekaClient-Feign/EurekaClient-Feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EurekaClient-RabbitMQ/EurekaClient-RabbitMQ.iml" filepath="$PROJECT_DIR$/EurekaClient-RabbitMQ/EurekaClient-RabbitMQ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EurekaClient-Ribbon/EurekaClient-Ribbon.iml" filepath="$PROJECT_DIR$/EurekaClient-Ribbon/EurekaClient-Ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EurekaClient-SendEmail/EurekaClient-SendEmail.iml" filepath="$PROJECT_DIR$/EurekaClient-SendEmail/EurekaClient-SendEmail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EurekaClient-Test1/EurekaClient-Test1.iml" filepath="$PROJECT_DIR$/EurekaClient-Test1/EurekaClient-Test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EurekaClient-Test2/EurekaClient-Test2.iml" filepath="$PROJECT_DIR$/EurekaClient-Test2/EurekaClient-Test2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EurekaClient-Zuul/EurekaClient-Zuul.iml" filepath="$PROJECT_DIR$/EurekaClient-Zuul/EurekaClient-Zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EurekaServer/EurekaServer.iml" filepath="$PROJECT_DIR$/EurekaServer/EurekaServer.iml" />
+    </modules>
+  </component>
+</project>
